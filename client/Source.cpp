@@ -61,7 +61,9 @@ std::string test_request_response(const string msg) {
 int main(int argc, char** argv) {
     setlocale(LC_ALL, "Russian");
     std::fstream out;
-    out.open("client.txt", std::ios_base::app);
+    int step;
+    std::cin >> step;
+    out.open("client_" + std::to_string(step) + ".txt", std::ios_base::app);
 
     string res = "";
     string pos = std::to_string(1) + "," + std::to_string(1);
@@ -92,8 +94,8 @@ int main(int argc, char** argv) {
       out << msg << endl;
       res = test_request_response(msg);
       out << res << endl;
-      int x = 1 + rand() % 10;
-      int y = 1 + rand() % 10;
+      int x = rand() % 9;
+      int y = rand() % 9;
       pos = std::to_string(x) + "," + std::to_string(y);
       msg = "Am " + res + " want_to " + pos;
       out << msg << endl;

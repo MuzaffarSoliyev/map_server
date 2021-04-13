@@ -1,0 +1,703 @@
+Am 0,0 want_to 1,1
+!OK1,1
+
+Where?
+1,1
+
+Am 1,1
+ want_to 5,8
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 7,4
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 8,1
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 3,0
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 7,2
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 8,2
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 7,6
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 7,5
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 7,8
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 3,0
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 0,6
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 5,0
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 4,7
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 6,5
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 8,5
+Error you can not change position
+
+Where?
+1,1
+
+Am 1,1
+ want_to 2,0
+!OK2,0
+
+Where?
+2,0
+
+Am 2,0
+ want_to 2,0
+!OK2,0
+
+Where?
+2,0
+
+Am 2,0
+ want_to 6,4
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 8,1
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 7,3
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 2,6
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 6,2
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 3,7
+Error you can not change position
+
+Where?
+2,0
+
+Am 2,0
+ want_to 2,1
+!OK2,1
+
+Where?
+2,1
+
+Am 2,1
+ want_to 5,5
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 1,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,7
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 7,4
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 4,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 5,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 0,1
+!OK0,1
+
+Where?
+0,1
+
+Am 0,1
+ want_to 4,5
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 4,4
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 5,0
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 5,6
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 7,5
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 3,6
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 3,2
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 0,5
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 0,1
+!OK0,1
+
+Where?
+0,1
+
+Am 0,1
+ want_to 0,5
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 7,5
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 8,1
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 6,3
+Error you can not change position
+
+Where?
+0,1
+
+Am 0,1
+ want_to 2,1
+!OK2,1
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,1
+!OK2,1
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 0,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 4,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 0,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 5,1
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 1,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,4
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,1
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 8,7
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,7
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 7,1
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,5
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 7,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 4,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,6
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 5,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 7,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 5,7
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,7
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 0,2
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 6,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 4,5
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 3,8
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 2,3
+Error you can not change position
+
+Where?
+2,1
+
+Am 2,1
+ want_to 1,0
+!OK1,0
+
+Where?
+1,0
+
+Am 1,0
+ want_to 2,5
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 4,2
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 5,4
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 6,0
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 6,6
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 3,4
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 1,0
+!OK1,0
+
+Where?
+1,0
+
+Am 1,0
+ want_to 8,1
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 3,2
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 6,8
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 1,8
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 2,7
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 6,1
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 5,0
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 0,2
+Error you can not change position
+
+Where?
+1,0
+
+Am 1,0
+ want_to 7,1
+Error you can not change position
+

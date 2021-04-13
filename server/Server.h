@@ -30,7 +30,11 @@ bool VERBOSE;
 int n = 10;
 std::vector<std::vector<int>> map(n);
 std::vector<std::vector<int>> used(n);
-std::vector<std::pair<int, int>> path;
+std::vector<std::pair<int, int>> path_hist;
+
+int** lab;
+int** visited;
+int** path;
 
   
 
@@ -105,6 +109,44 @@ private:
     char in_message[BUFFER_SIZE];
     std::string out_message;
 
+    void find_path(int n, int row, int col, int** lab, int** visited,
+                   int** path, std::queue<int>& plan, int x_end, int y_end) {
+      if (!visited[row][col]) {
+        /* проверяем не вышли ли мы за границы лабиринта, есть ли клетка
+        в массиве посещенных и можно ли через нее пройти*/
+        if ((row + 1) < n && (row + 1) >= 0 && !visited[row + 1][col] &&
+            (lab[row + 1][col] == 1 ||
+             (row + 1 == x_end && col == y_end) /*lab[row + 1][col] == 'X'*/)) {
+          path[row + 1][col] = path[row][col] + 1;
+          plan.push(row + 1);
+          plan.push(col);
+        }
+        if ((row - 1) < n && (row - 1) >= 0 && !visited[row - 1][col] &&
+            (lab[row - 1][col] == 1 || (row - 1 == x_end && col == y_end)
+             )) {
+          path[row - 1][col] = path[row][col] + 1;
+          plan.push(row - 1);
+          plan.push(col);
+        }
+        if ((col + 1) < n && (col + 1) >= 0 && !visited[row][col + 1] &&
+            (lab[row][col + 1] == 1 ||
+             (row == x_end &&
+              col + 1 == y_end) )) {
+          path[row][col + 1] = path[row][col] + 1;
+          plan.push(row);
+          plan.push(col + 1);
+        }
+        if ((col - 1) < n && (col - 1) >= 0 && !visited[row][col - 1] &&
+            (lab[row][col - 1] == 1 ||
+             (row == x_end && col - 1 == y_end) )) {
+          path[row][col - 1] = path[row][col] + 1;
+          plan.push(row);
+          plan.push(col - 1);
+        }
+        visited[row][col] = 1; /* отмечаем клетку в которой побывали */
+      }
+    }
+
 
     std::string parse_command_str(std::string str) {
         std::istringstream ss(str);
@@ -116,7 +158,7 @@ private:
         }
         
         std::ofstream out1;
-        out1.open("server.txt", std::ios_base::app);
+        out1.open("server_" + std::to_string(step) + ".txt", std::ios_base::app);
 
         cout << "______start_____"<<endl;
         cout << str;
@@ -154,95 +196,107 @@ private:
           
           std::cout << endl;
 
-          std::pair<int, int> s = {std::stoi(own_vec[0]),
-                                   std::stoi(own_vec[1])};
-          std::pair<int, int> e = {std::stoi(position_vec[0]),
-                                   std::stoi(position_vec[1])};
-          std::cout << "START POS: " << s.first << " " << s.second << std::endl; 
-          std::cout << "END POS: " << e.first << " " << e.second << std::endl;
-          std::cout << "STEP: " << step << std::endl;
-          std::queue<std::pair<int, int>> q;
+          int x_start = std::stoi(own_vec[0]),
+                 y_start = std::stoi(own_vec[1]),
+                 x_end = std::stoi(position_vec[0]),
+                 y_end = std::stoi(position_vec[1]), x, y,
+                 len = 0;
 
-          q.push(s);
-          used[s.first][s.second] = true;
-          while (!q.empty()) {
-            std::pair<int, int> v = q.front();
-
-            q.pop();
-            if (v.first < n - step) {
-              if (map[v.first + step][v.second] &&
-                  !used[v.first + step][v.second]) {
-                q.push({v.first + step, v.second});
-                used[v.first + step][v.second] = 1;
-              }
-            }
-            if (v.second < n - step) {
-              if (map[v.first][v.second + step] &&
-                  !used[v.first][v.second + step]) {
-                q.push({v.first, v.second + step});
-                used[v.first][v.second + step] = 1;
-              }
-            }
-            if (v.first - step > 0) {
-              if (map[v.first - step][v.second] &&
-                  !used[v.first - step][v.second]) {
-                q.push({v.first - step, v.second});
-                used[v.first - step][v.second] = 1;
-              }
-            }
-            if (v.second - step > 0) {
-              if (map[v.first][v.second - step] &&
-                  !used[v.first][v.second - step]) {
-                q.push({v.first, v.second - step});
-                used[v.first][v.second - step] = 1;
-              }
-            }
-            /*
-            if (v.first < n - 1) {
-              if (map[v.first + 1][v.second] && !used[v.first + 1][v.second]) {
-                q.push({v.first + 1, v.second});
-                used[v.first + 1][v.second] = 1;
-              }
-            }
-            if (v.second < n - 1) {
-              if (map[v.first][v.second + 1] && !used[v.first][v.second + 1]) {
-                q.push({v.first, v.second + 1});
-                used[v.first][v.second + 1] = 1;
-              }
-            }
-            if (v.first > 0) {
-              if (map[v.first - 1][v.second] && !used[v.first - 1][v.second]) {
-                q.push({v.first - 1, v.second});
-                used[v.first - 1][v.second] = 1;
-              }
-            }
-            if (v.second > 0) {
-              if (map[v.first][v.second - 1] && !used[v.first][v.second - 1]) {
-                q.push({v.first, v.second - 1});
-                used[v.first][v.second - 1] = 1;
-              }
-            }
-            */
-          }
-
-          if (used[e.first][e.second] == 1) {
+          if (x_start == x_end && y_start == y_end) {
+            return "!OK" + own_position;
             can_change_position = true;
-          } else {
-            can_change_position = false;
           }
+          std::queue<int> plan;
+
+          std::cout << "START POS: " << x_start << " " << y_start << std::endl; 
+          std::cout << "END POS: " << x_end << " " << y_end << std::endl;
+          std::cout << "STEP: " << step << std::endl;
+          
+          plan.push(x_start);  // заносим начальную клетку
+          plan.push(y_start);  //в план посещения
+          path[x_start][y_start] = 1;
+          while (!plan.empty()) { /* пока очередь посещения клеток непустая*/
+            x = plan.front();
+            plan.pop();
+            y = plan.front();
+            plan.pop();
+            this->find_path(n, x, y, lab, visited, path, plan, x_end,
+                      y_end); /* продолжаем поиск пути*/
+          }
+          if (!visited[x_end][y_end]) {
+            cout << "N" << endl;
+            can_change_position = false;
+
+          } else {
+            cout << "Y" << endl;
+            can_change_position = true;
+            x = x_end;
+            y = y_end;
+            lab[x][y] = 8;
+            //len++;
+            while (path[x][y] != 2) { /* восстановление пути*/
+              if ((x - 1) >= 0 && (x - 1) < n &&
+                  (path[x - 1][y] == path[x][y] - 1)) {
+                x = x - 1;
+                lab[x][y] = 8;
+                //len++;
+              } else if ((x + 1) >= 0 && (x + 1) < n &&
+                         (path[x + 1][y] == path[x][y] - 1)) {
+                x = x + 1;
+                lab[x][y] = 8;
+                //len++;
+              } else if ((y - 1) >= 0 && (y - 1) < n &&
+                         (path[x][y - 1] == path[x][y] - 1)) {
+                y = y - 1;
+                lab[x][y] = 8;
+                //len++;
+              } else if ((y + 1) >= 0 && (y + 1) < n &&
+                         (path[x][y + 1] == path[x][y] - 1)) {
+                y = y + 1;
+                lab[x][y] = 8;
+                //len++;
+              }
+            }
+
+            for (int i = 0; i < n; i++) {
+              for (int j = 0; j < n; j++) {
+                visited[i][j] = 0;
+                path[i][j] = -1;
+              }
+            }
+
+            for (int i = 0; i < n; i++) {
+              for (int j = 0; j < n; j++) {
+                cout << lab[i][j] << " ";
+                if (lab[i][j] == 8) {
+                  lab[i][j] = 1;
+                  len++;
+                }
+              }
+              cout << endl;
+            }
+          }
+          cout << endl;
+          cout << endl;
+          cout << "LEN: " << len << endl;
+          cout << "STEP: " << step << endl;
         
           if (can_change_position) {
-            own_position = position;
-            path.push_back(e);
-            return "!OK" + own_position;
+            if (len <= step) {
+              own_position = position;
+              path_hist.push_back({x_end, y_end});
+              return "!OK" + own_position;
+            } else {
+            return "Error you can not change position";
+            }
           } else {
             return "Error you can not change position";
           }
 
           
         } else if(token == "Where?") {
-          return std::to_string(path[path.size() - 1].first) + "," +
-                 std::to_string(path[path.size() - 1].second); 
+          return std::to_string(path_hist[path_hist.size() - 1].first) + "," +
+                 std::to_string(path_hist[path_hist.size() - 1].second); 
         }
         
 
@@ -268,26 +322,39 @@ public:
         step = config.step;
         dir = config.dir;
         n = ndim1;
+
+        
+        lab = new int*[n];
+        visited = new int*[n];
+        path = new int*[n];
+
+
         for (int i = 0; i < n; i++) {
+          lab[i] = new int[n]; /* массив для хранения лабиринта */
+          visited[i] =
+              new int[n]; /* массив для хранения информации о посещении клеток*/
+          path[i] = new int[n]; /* массив для хранения найденных путей */
           for (int j = 0; j < n; j++) {
-            used[i].push_back(false);
+            visited[i][j] = 0;
+            path[i][j] = -1;
             if (rand() % 2) {
-              map[i].push_back(1);
+              lab[i][j] = 1;
             } else {
-              map[i].push_back(0);
+              lab[i][j] = 0;
             }
+            
           }
         }
-        map[0][0] = 1;
-        path.push_back({0,0});
+        
+    
+        lab[0][0] = 1;
+        path_hist.push_back({0, 0});
         std::ofstream out;
-        out.open("map.txt");
+        out.open("map_" + std::to_string(step) +".txt");
         for (int i = 0; i < n; i++) {
           for (int j = 0; j < n; j++) {
-            //std::cout << map[i][j] << " ";
-            out << map[i][j] << " ";
+            out << lab[i][j] << " ";
           }
-          //std::cout << std::endl;
           out << std::endl;
         }
         out.close();
