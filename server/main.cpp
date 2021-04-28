@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     config.workers = 1;
     config.ndim1 = 10;
     config.ndim2 = 10;  
-    config.step = 3;
+    config.step = 1;
     config.verbose = true;
     parse_input_data(argc, argv, config);
 

@@ -8,495 +8,495 @@ Am 1,1
 Step: 2
 Where?
 Step: 2
-Am 1,1
- want_to 7,4
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 8,1
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 3,0
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 7,2
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 8,2
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 7,6
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 7,5
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 7,8
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 3,0
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 0,6
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 5,0
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 4,7
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 6,5
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 8,5
-Step: 2
-Where?
-Step: 2
-Am 1,1
- want_to 2,0
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 2,0
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 6,4
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 8,1
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 7,3
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 2,6
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 2,3
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 6,2
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 3,7
-Step: 2
-Where?
-Step: 2
-Am 2,0
- want_to 2,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 5,5
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 1,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 3,7
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 2,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 7,4
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 4,2
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 5,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 0,1
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 4,5
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 4,4
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 5,0
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 5,6
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 7,5
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 3,6
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 3,2
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 0,5
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 0,1
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 0,5
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 7,5
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 8,1
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 6,3
-Step: 2
-Where?
-Step: 2
-Am 0,1
- want_to 2,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 2,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 6,8
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 0,2
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 4,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 6,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 0,2
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 2,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,8
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 5,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 6,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 2,3
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 3,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 1,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,8
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 3,4
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 8,7
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 3,7
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 7,1
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 3,5
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 7,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 4,2
-Step: 2
-Where?
-Step: 2
-Am 2,1
- want_to 6,6
-Step: 2
-Where?
-Step: 2
-Am 2,1
+Am 1,3
  want_to 5,8
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 7,2
+Am 1,5
+ want_to 5,8
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 2,3
+Am 2,6
+ want_to 5,8
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 5,7
+Am 3,7
+ want_to 5,8
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 2,7
+Am 4,8
+ want_to 5,8
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 6,8
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 0,2
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 6,8
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 4,5
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 3,8
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 2,3
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 2,1
- want_to 1,0
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 2,5
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 4,2
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 5,4
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 6,0
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 6,6
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 3,4
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 1,0
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 8,1
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 3,2
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 6,8
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 1,8
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 2,7
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 6,1
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 5,0
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 0,2
+Am 5,8
+ want_to 7,4
 Step: 2
 Where?
 Step: 2
-Am 1,0
- want_to 7,1
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4
+Step: 2
+Where?
+Step: 2
+Am 5,8
+ want_to 7,4

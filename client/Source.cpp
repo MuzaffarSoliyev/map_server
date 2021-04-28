@@ -6,6 +6,7 @@
 #include <thread>
 #include <vector>
 #include <fstream>
+#include <boost/algorithm/string.hpp>
 
 
 using namespace boost::asio;
@@ -61,42 +62,41 @@ std::string test_request_response(const string msg) {
 int main(int argc, char** argv) {
     setlocale(LC_ALL, "Russian");
     std::fstream out;
-    int step;
+    int step, x = 1, y = 1;
     std::cin >> step;
     out.open("client_" + std::to_string(step) + ".txt", std::ios_base::app);
 
     string res = "";
-    string pos = std::to_string(1) + "," + std::to_string(1);
+
+    string pos = std::to_string(x) + "," + std::to_string(x);
     string msg = "Am 0,0 want_to " + pos;
     out << msg << std::endl;
     res = test_request_response(msg);
     out << res << std::endl;
-    /*
-    msg = "Where?";
-    res = test_request_response(msg);
-    pos = std::to_string(2) + "," + std::to_string(2);
-    msg = "Am " + res + " want_to " + pos;
-    res = test_request_response(msg);
-    msg = "Where?";
-    res = test_request_response(msg);
-    pos = std::to_string(3) + "," + std::to_string(2);
-    msg = "Am " + res + " want_to " + pos;
-    res = test_request_response(msg);
-    msg = "Where?";
-    res = test_request_response(msg);
-    pos = std::to_string(3) + "," + std::to_string(4);
-    msg = "Am " + res + " want_to " + pos;
-    res = test_request_response(msg);
-    */
 
     for (int i = 0; i < 100; i++) {
       msg = "Where?";
       out << msg << endl;
       res = test_request_response(msg);
       out << res << endl;
-      int x = rand() % 9;
-      int y = rand() % 9;
-      pos = std::to_string(x) + "," + std::to_string(y);
+      if (res.substr(0,1) == "E") {
+        int x = rand() % 9;
+        int y = rand() % 9;
+        pos = std::to_string(x) + "," + std::to_string(y);
+      } else {
+        std::vector<std::string> position_vec;
+        std::vector<std::string> position_vec_1;
+        // cout << res << endl;
+        boost::split(position_vec, res, boost::is_any_of(","));
+        // cout << position_vec[0].length() << "------" << position_vec[1].length() << std::endl;
+        if (res.compare(0, res.length() - 1, pos) == 0) {
+          int x = rand() % 9;
+          int y = rand() % 9;
+          pos = std::to_string(x) + "," + std::to_string(y);
+          cout << "YEA!!!" << endl;
+        }
+      }
+
       msg = "Am " + res + " want_to " + pos;
       out << msg << endl;
       res = test_request_response(msg);

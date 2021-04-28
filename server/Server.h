@@ -201,9 +201,10 @@ private:
                  x_end = std::stoi(position_vec[0]),
                  y_end = std::stoi(position_vec[1]), x, y,
                  len = 0;
+          int tmp_x = -1, tmp_y = -1;
 
           if (x_start == x_end && y_start == y_end) {
-            return "!OK" + own_position;
+            return "!OK " + own_position;
             can_change_position = true;
           }
           std::queue<int> plan;
@@ -264,14 +265,19 @@ private:
                 path[i][j] = -1;
               }
             }
-
+            
             for (int i = 0; i < n; i++) {
               for (int j = 0; j < n; j++) {
                 cout << lab[i][j] << " ";
                 if (lab[i][j] == 8) {
                   lab[i][j] = 1;
                   len++;
+                  if (len == step) {
+                    tmp_x = i;
+                    tmp_y = j;
+                  }
                 }
+                
               }
               cout << endl;
             }
@@ -285,9 +291,11 @@ private:
             if (len <= step) {
               own_position = position;
               path_hist.push_back({x_end, y_end});
-              return "!OK" + own_position;
+              return "!OK " + own_position;
             } else {
-            return "Error you can not change position";
+              path_hist.push_back({tmp_x, tmp_y});
+              return "!OK " + std::to_string(tmp_x) + "," + std::to_string(tmp_y);
+              
             }
           } else {
             return "Error you can not change position";
